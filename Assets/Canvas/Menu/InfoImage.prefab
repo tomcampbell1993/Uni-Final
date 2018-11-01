@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1778257263805676}
+  m_IsPrefabParent: 1
+--- !u!1 &1778257263805676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224280787389026908}
+  - component: {fileID: 222566071925722942}
+  - component: {fileID: 114116117777808582}
+  - component: {fileID: 114206670208629384}
+  m_Layer: 5
+  m_Name: InfoImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114116117777808582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778257263805676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 2800000, guid: be1fd34421a9da74d83fa76336b2e47a, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &114206670208629384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778257263805676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f80da990b7ce5045947fa6386ffa681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BF109texture: {fileID: 2800000, guid: a3b1555d71b08d54e9f2df039d2be834, type: 3}
+  BF110texture: {fileID: 2800000, guid: 5de8a14ab30c35144a406415d551c562, type: 3}
+  spitfireTexture: {fileID: 2800000, guid: 3ae9b817cca82dc4ba369c25fc120391, type: 3}
+  hurricaneTexture: {fileID: 2800000, guid: 9af885945e6097544bc5ea7f6e19ef36, type: 3}
+  heinkellTexture: {fileID: 2800000, guid: 9912fda7c254fdf4da2142f1396d185b, type: 3}
+  junkersTexture: {fileID: 2800000, guid: d6f094edcb71be14d8d8f2003c5c5b4d, type: 3}
+  dornierTexture: {fileID: 2800000, guid: 5228e1a579d9aa3489e217021ef89a18, type: 3}
+  infoObject: {fileID: 0}
+  imageObject: {fileID: 0}
+  infoButton: {fileID: 0}
+  image: {fileID: 0}
+  imageNumber: 0
+--- !u!222 &222566071925722942
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778257263805676}
+--- !u!224 &224280787389026908
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778257263805676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -300, y: 220}
+  m_SizeDelta: {x: 200, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
